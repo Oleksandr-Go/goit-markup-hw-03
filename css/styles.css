@@ -1,0 +1,212 @@
+body {
+  color: #434455;
+  background: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* навігація хедера */
+.menu {
+  background: #fff;
+}
+
+.logo-upp {
+  color: #4d5ae5;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-family: "Raleway", sans-serif;
+}
+
+.accent-upp {
+  color: #2e2f42;
+}
+
+.nav-link {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+/* !!! */
+
+/* контакти в навігації хедера */
+.contacts {
+  font-style: normal;
+}
+
+.contact-link {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-link:hover,
+.contact-link:hover,
+.nav-link:focus,
+.contact-link:focus {
+  color: #404bbf;
+}
+/* !!! */
+
+/* секція з кнопкою */
+.main-page {
+  background: #2e2f42;
+}
+
+.main-page-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.page-button {
+  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+
+.page-button:hover,
+.page-button:focus {
+  background: #404bbf;
+}
+/* !!! */
+
+/* секція з прихованим заголовком */
+.page-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+}
+
+.text-facts {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+}
+/* !!! */
+
+/* секція фахівців */
+.our-sect {
+  background: #f4f4fd;
+}
+
+.prof-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+}
+
+.prof-cart {
+  background: #fff;
+}
+
+.title-cart {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+}
+
+.title-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+}
+/* !!! */
+
+/* секція портфоліо */
+.portf-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+}
+
+.portf-cart {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+}
+
+.portf-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+}
+/* !!! */
+
+/* підвал сторінки */
+.under {
+  background: #2e2f42;
+}
+
+.logo-under {
+  color: #4d5ae5;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-family: "Raleway", sans-serif;
+}
+
+.accent-under {
+  color: #f4f4fd;
+}
+
+.under-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  font-family: "Roboto", sans-serif;
+}
+/* !!! */
