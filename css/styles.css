@@ -81,6 +81,7 @@ ul {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  font-family: inherit;
 }
 
 .page-button:hover,
