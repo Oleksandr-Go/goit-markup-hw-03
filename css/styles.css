@@ -22,13 +22,23 @@ ul {
 img {
   display: block;
 }
+
+.container {
+  width: 1158px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 120px;
+  margin-right: auto;
+  margin-bottom: 120px;
+  margin-left: auto;
+}
 /* навігація хедера */
 .menu {
   border-bottom: 1px solid #e7e9fc;
 }
 
 .container-nav {
-  width: 1470px;
+  width: 1158px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 15px;
@@ -37,6 +47,7 @@ img {
 }
 
 .menu-nav {
+  display: flex;
 }
 .logo-upp {
   color: #4d5ae5;
@@ -47,6 +58,8 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   font-family: "Raleway", sans-serif;
+  width: 115px;
+  padding: 24px 76px 24px 0;
 }
 
 .accent-upp {
@@ -55,14 +68,11 @@ img {
 
 .nav-item {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
+  align-items: center;
+  width: 261px;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding-right: 332px;
-  margin: 0 auto;
+  padding: 24px 0 24px 76px;
+  margin-right: 332px;
 }
 
 .nav-link {
@@ -82,10 +92,7 @@ img {
 .contacts-item {
   display: flex;
   gap: 40px;
-  padding: 0;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  margin: 0 auto;
+  padding: 24px 0 24px 0;
 }
 .contact-link {
   text-decoration: none;
@@ -107,6 +114,11 @@ img {
   background: #2e2f42;
 }
 
+.container-page {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 188px 15px 188px 15px;
+}
 .main-page-title {
   font-weight: 700;
   font-size: 56px;
@@ -114,6 +126,10 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  width: 496px;
+  padding-bottom: 48px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .page-button {
@@ -124,6 +140,14 @@ img {
   color: #ffffff;
   cursor: pointer;
   font-family: inherit;
+  display: block;
+  border: none;
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .page-button:hover,
@@ -228,6 +252,15 @@ img {
   background: #2e2f42;
 }
 
+.container-foot {
+  width: 1158px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+}
 .logo-under {
   color: #4d5ae5;
   text-decoration: none;
@@ -237,6 +270,9 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   font-family: "Raleway", sans-serif;
+  width: 115px;
+  padding-bottom: 16px;
+  margin-top: 100px;
 }
 
 .accent-under {
@@ -247,5 +283,7 @@ img {
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  width: 264px;
+  margin-bottom: 100px;
 }
 /* !!! */
