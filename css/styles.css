@@ -66,7 +66,6 @@ img {
 
 .nav-item {
   display: flex;
-  padding: 24px 0;
   gap: 40px;
   margin-right: 332px;
 }
@@ -77,6 +76,7 @@ img {
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 /* !!! */
 
@@ -112,8 +112,7 @@ img {
 }
 
 .main-page .container {
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0;
 }
 
 .main-page-title {
@@ -123,7 +122,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
-  width: 496px;
+  max-width: 496px;
   margin-bottom: 48px;
   margin-right: auto;
   margin-left: auto;
@@ -140,7 +139,7 @@ img {
   display: block;
   border: none;
   border-radius: 4px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   margin-right: auto;
@@ -167,11 +166,13 @@ img {
   overflow: hidden;
 }
 
+.sect-hidden .container {
+  padding: 120px 0;
+}
+
 .page {
   display: flex;
   gap: 24px;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .page-list {
@@ -200,8 +201,7 @@ img {
 }
 
 .our-sect .container {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .prof-title {
@@ -225,10 +225,13 @@ img {
 .prof-cart {
   background: #ffffff;
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
   width: 264px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.cont-cart {
+  padding: 32px 0;
 }
 
 .title-cart {
@@ -252,8 +255,7 @@ img {
 
 /* секція портфоліо */
 .portfolio .container {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .portf-title {
@@ -311,8 +313,7 @@ img {
 
 .under .container {
   display: block;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 
 .logo-under {
