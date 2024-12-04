@@ -68,7 +68,6 @@ img {
 
 .nav-item {
   display: flex;
-  align-items: center;
   width: 261px;
   gap: 40px;
   padding: 24px 0 24px 76px;
@@ -92,7 +91,8 @@ img {
 .contacts-item {
   display: flex;
   gap: 40px;
-  padding: 24px 0 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .contact-link {
   text-decoration: none;
