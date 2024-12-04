@@ -43,6 +43,10 @@ img {
   display: flex;
 }
 
+.menu-nav {
+  display: flex;
+}
+
 .logo-upp {
   color: #4d5ae5;
   text-decoration: none;
@@ -53,10 +57,19 @@ img {
   letter-spacing: 0.03em;
   font-family: "Raleway", sans-serif;
   width: 115px;
+  padding: 24px 0;
+  margin-right: 76px;
 }
 
 .accent-upp {
   color: #2e2f42;
+}
+
+.nav-item {
+  display: flex;
+  padding: 24px 0;
+  gap: 40px;
+  margin-right: 332px;
 }
 
 .nav-link {
@@ -71,6 +84,12 @@ img {
 /* контакти в навігації хедера */
 .contacts {
   font-style: normal;
+}
+
+.contacts-item {
+  display: flex;
+  padding: 24px 0;
+  gap: 40px;
 }
 
 .contact-link {
@@ -247,9 +266,8 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   font-family: "Raleway", sans-serif;
-  width: 115px;
-  height: 24px;
   display: inline-block;
+  width: 115px;
   margin-bottom: 16px;
 }
 
