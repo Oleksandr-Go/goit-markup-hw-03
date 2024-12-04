@@ -27,10 +27,7 @@ img {
   width: 1158px;
   padding-right: 15px;
   padding-left: 15px;
-  margin-top: 120px;
-  margin-right: auto;
-  margin-bottom: 120px;
-  margin-left: auto;
+  margin: 120px auto 120px auto;
 }
 /* навігація хедера */
 .menu {
@@ -46,9 +43,6 @@ img {
   display: flex;
 }
 
-.menu-nav {
-  display: flex;
-}
 .logo-upp {
   color: #4d5ae5;
   text-decoration: none;
@@ -59,19 +53,10 @@ img {
   letter-spacing: 0.03em;
   font-family: "Raleway", sans-serif;
   width: 115px;
-  padding: 24px 76px 24px 0;
 }
 
 .accent-upp {
   color: #2e2f42;
-}
-
-.nav-item {
-  display: flex;
-  width: 261px;
-  gap: 40px;
-  padding: 24px 0 24px 76px;
-  margin-right: 332px;
 }
 
 .nav-link {
@@ -88,12 +73,6 @@ img {
   font-style: normal;
 }
 
-.contacts-item {
-  display: flex;
-  gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
 .contact-link {
   text-decoration: none;
   font-size: 16px;
@@ -253,13 +232,11 @@ img {
 }
 
 .container-foot {
+  display: block;
   width: 1158px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
-  display: flex;
-  flex-direction: column;
+  padding: 100px 15px 100px 15px;
 }
 .logo-under {
   color: #4d5ae5;
@@ -271,8 +248,9 @@ img {
   letter-spacing: 0.03em;
   font-family: "Raleway", sans-serif;
   width: 115px;
-  padding-bottom: 16px;
-  margin-top: 100px;
+  height: 24px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .accent-under {
@@ -284,6 +262,5 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
-  margin-bottom: 100px;
 }
 /* !!! */
