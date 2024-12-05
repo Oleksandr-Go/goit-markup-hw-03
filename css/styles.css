@@ -109,9 +109,6 @@ img {
 /* секція з кнопкою */
 .main-page {
   background: #2e2f42;
-}
-
-.main-page .container {
   padding: 188px 0;
 }
 
@@ -166,7 +163,7 @@ img {
   overflow: hidden;
 }
 
-.sect-hidden .container {
+.sect-hidden {
   padding: 120px 0;
 }
 
@@ -177,6 +174,7 @@ img {
 
 .page-list {
   width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 
 .page-title {
@@ -200,7 +198,7 @@ img {
   background: #f4f4fd;
 }
 
-.our-sect .container {
+.our-sect {
   padding: 120px 0;
 }
 
@@ -228,6 +226,7 @@ img {
   width: 264px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  width: calc((100% - 72px) / 4);
 }
 
 .cont-cart {
@@ -254,8 +253,9 @@ img {
 /* !!! */
 
 /* секція портфоліо */
-.portfolio .container {
-  padding: 120px 0;
+.portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .portf-title {
@@ -284,9 +284,7 @@ img {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-left: 16px;
+  padding: 32px 16px;
   width: 360px;
 }
 
@@ -309,10 +307,6 @@ img {
 /* підвал сторінки */
 .under {
   background: #2e2f42;
-}
-
-.under .container {
-  display: block;
   padding: 100px 0;
 }
 
