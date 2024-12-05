@@ -44,6 +44,7 @@ img {
 .menu-nav {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 
 .logo-upp {
@@ -67,7 +68,6 @@ img {
 .nav-item {
   display: flex;
   gap: 40px;
-  margin-right: 332px;
 }
 
 .nav-link {
@@ -240,7 +240,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
