@@ -150,6 +150,10 @@ img {
 /* !!! */
 
 /* секція з прихованим заголовком */
+.sect-hidden {
+  padding: 120px 0;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -161,10 +165,6 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-.sect-hidden {
-  padding: 120px 0;
 }
 
 .page {
@@ -196,9 +196,6 @@ img {
 /* секція фахівців */
 .our-sect {
   background: #f4f4fd;
-}
-
-.our-sect {
   padding: 120px 0;
 }
 
