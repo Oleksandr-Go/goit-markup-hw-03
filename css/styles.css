@@ -108,7 +108,7 @@ img {
 
 /* секція з кнопкою */
 .main-page {
-  background: #2e2f42;
+  background-color: #2e2f42;
   padding: 188px 0;
 }
 
@@ -126,7 +126,7 @@ img {
 }
 
 .page-button {
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.04em;
@@ -145,7 +145,7 @@ img {
 
 .page-button:hover,
 .page-button:focus {
-  background: #404bbf;
+  background-color: #404bbf;
 }
 /* !!! */
 
@@ -195,7 +195,7 @@ img {
 
 /* секція фахівців */
 .our-sect {
-  background: #f4f4fd;
+  background-color: #f4f4fd;
   padding: 120px 0;
 }
 
@@ -218,7 +218,7 @@ img {
 }
 
 .prof-cart {
-  background: #ffffff;
+  background-color: #ffffff;
   border-radius: 0 0 4px 4px;
   width: 264px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -302,7 +302,7 @@ img {
 
 /* підвал сторінки */
 .under {
-  background: #2e2f42;
+  background-color: #2e2f42;
   padding: 100px 0;
 }
 
